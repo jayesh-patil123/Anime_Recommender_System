@@ -1,0 +1,32 @@
+2025-04-09 11:31:13,962 - INFO - Succesfully read the YAML file
+2025-04-09 11:31:13,963 - INFO - Data Ingestion Initialized.
+2025-04-09 11:31:13,963 - INFO - Starting Data Ingestion Process.
+2025-04-09 11:31:13,965 - ERROR - Error while downloading data from GCP.
+2025-04-09 11:31:13,965 - ERROR - CustomException: Error in C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\src\data_ingestion.py, 32 : Failed to download data from GCP.
+2025-04-09 11:31:13,965 - INFO - Data Ingestion Done.
+2025-04-09 11:34:01,021 - INFO - Succesfully read the YAML file
+2025-04-09 11:34:01,022 - INFO - Data Ingestion Initialized.
+2025-04-09 11:34:01,022 - INFO - Starting Data Ingestion Process.
+2025-04-09 11:34:01,024 - ERROR - Error while downloading data from GCP.
+2025-04-09 11:34:01,024 - ERROR - CustomException: Error in C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\src\data_ingestion.py, 32 : Failed to download data from GCP.
+2025-04-09 11:34:01,024 - INFO - Data Ingestion Done.
+2025-04-09 11:34:12,267 - INFO - Succesfully read the YAML file
+2025-04-09 11:34:12,268 - INFO - Data Ingestion Started....
+2025-04-09 11:34:12,268 - INFO - Starting Data Ingestion Process
+2025-04-09 11:34:12,270 - ERROR - Error while downloading data from GCP
+2025-04-09 11:34:12,271 - ERROR - CustomException : Error in C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\src\data_ingestion.py, 24 : failed to download data
+2025-04-09 11:34:12,271 - INFO - Data Ingestion Done....
+2025-04-09 11:36:57,758 - INFO - Succesfully read the YAML file
+2025-04-09 11:36:57,758 - INFO - Data Ingestion Started....
+2025-04-09 11:36:57,758 - INFO - Starting Data Ingestion Process
+2025-04-09 11:36:57,760 - ERROR - Error while downloading data from GCP
+2025-04-09 11:36:57,760 - ERROR - CustomException : Error in C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\src\data_ingestion.py, 24 : failed to download data
+2025-04-09 11:36:57,760 - INFO - Data Ingestion Done....
+2025-04-09 11:43:23,571 - INFO - Succesfully read the YAML file
+2025-04-09 11:43:23,572 - INFO - Data Ingestion Initialized.
+2025-04-09 11:43:23,572 - INFO - Starting Data Ingestion Process.
+2025-04-09 11:43:27,040 - INFO - Downloaded file: anime.csv
+2025-04-09 11:43:29,986 - INFO - Downloaded file: anime_with_synopsis.csv
+2025-04-09 11:48:04,213 - INFO - Large file detected. Downloaded only first 5M rows: animelist.csv
+2025-04-09 11:48:04,236 - INFO - Data Ingestion Completed.
+2025-04-09 11:48:04,236 - INFO - Data Ingestion Done.

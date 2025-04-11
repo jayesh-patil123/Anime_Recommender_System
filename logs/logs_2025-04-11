@@ -1,0 +1,66 @@
+2025-04-11 11:52:08,510 - INFO - DataProcessing Intialized
+2025-04-11 11:52:11,269 - INFO - Data loaded sucesfully for Data Processing
+2025-04-11 11:52:11,928 - INFO - Filtered users sucesfully...
+2025-04-11 11:52:14,575 - INFO - Scalind done for Processing 
+2025-04-11 11:52:14,903 - INFO - Encoding done for Users and Anime
+2025-04-11 11:52:15,813 - INFO - Data splitted sucesfullyy
+2025-04-11 11:52:15,834 - INFO - user2user_encoded saved sucesfully in processed directory
+2025-04-11 11:52:15,855 - INFO - user2user_decoded saved sucesfully in processed directory
+2025-04-11 11:52:15,935 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2025-04-11 11:52:16,026 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2025-04-11 11:52:25,174 - INFO - ALl the training testing data as well as rating_df is saved now..
+2025-04-11 11:52:45,159 - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-04-11 11:52:45,169 - INFO - Data Processing Pipeline Run sucesfully .... Congrats
+2025-04-11 12:40:54,409 - INFO - Model Training & COMET ML initialized..
+2025-04-11 12:40:57,004 - INFO - Data loaded sucesfully for Model Trainig
+2025-04-11 12:40:57,122 - INFO - Succesfully read the YAML file
+2025-04-11 12:40:57,123 - INFO - Loaded configuration from config.yaml
+2025-04-11 12:40:57,397 - INFO - Model created sucesfully....
+2025-04-11 12:40:57,933 - ERROR - CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-04-11 13:21:34,153 - INFO - Model Training & COMET ML initialized..
+2025-04-11 13:21:35,309 - INFO - Data loaded sucesfully for Model Trainig
+2025-04-11 13:21:35,415 - INFO - Succesfully read the YAML file
+2025-04-11 13:21:35,415 - INFO - Loaded configuration from config.yaml
+2025-04-11 13:21:35,689 - INFO - Model created sucesfully....
+2025-04-11 13:21:36,224 - ERROR - CustomException.__init__() missing 1 required positional argument: 'error_detail'
+2025-04-11 13:34:23,755 - INFO - Model Training & COMET ML initialized.
+2025-04-11 13:34:23,944 - INFO - Data loaded successfully for model training.
+2025-04-11 13:34:24,015 - INFO - Succesfully read the YAML file
+2025-04-11 13:34:24,015 - INFO - Loaded configuration from config.yaml
+2025-04-11 13:34:24,505 - INFO - Model created sucesfully....
+2025-04-11 13:34:24,901 - ERROR - Error in C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\src\model_training.py, 86 : Model training failed.
+2025-04-11 13:43:24,722 - INFO - Model Training & COMET ML initialized.
+2025-04-11 13:43:24,879 - INFO - Data loaded successfully for model training.
+2025-04-11 13:43:24,936 - INFO - Succesfully read the YAML file
+2025-04-11 13:43:24,936 - INFO - Loaded configuration from config.yaml
+2025-04-11 13:43:25,423 - INFO - Model created successfully.
+2025-04-11 13:47:42,019 - INFO - Model training completed successfully.
+2025-04-11 13:47:42,021 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-11 13:47:42,214 - INFO - Model saved to artifacts/model\model.h5
+2025-04-11 13:47:42,224 - INFO - Extracting weights for user_embedding
+2025-04-11 13:47:42,250 - INFO - Extracting weights for anime_embedding
+2025-04-11 13:47:42,440 - INFO - User and Anime weights saved successfully.
+2025-04-11 13:56:36,691 - INFO - DataProcessing Intialized
+2025-04-11 13:56:39,010 - INFO - Data loaded sucesfully for Data Processing
+2025-04-11 13:56:39,491 - INFO - Filtered users sucesfully...
+2025-04-11 13:56:41,673 - INFO - Scalind done for Processing 
+2025-04-11 13:56:42,016 - INFO - Encoding done for Users and Anime
+2025-04-11 13:56:43,131 - INFO - Data splitted sucesfullyy
+2025-04-11 13:56:43,156 - INFO - user2user_encoded saved sucesfully in processed directory
+2025-04-11 13:56:43,181 - INFO - user2user_decoded saved sucesfully in processed directory
+2025-04-11 13:56:43,306 - INFO - anim2anime_encoded saved sucesfully in processed directory
+2025-04-11 13:56:43,530 - INFO - anim2anime_decoded saved sucesfully in processed directory
+2025-04-11 13:56:56,298 - INFO - ALl the training testing data as well as rating_df is saved now..
+2025-04-11 13:57:29,828 - INFO - DF AND SYNOPSIS_Df saved sucesfullyy...
+2025-04-11 13:57:29,834 - INFO - Data Processing Pipeline Run sucesfully .... Congrats
+2025-04-11 13:57:38,841 - INFO - Model Training & COMET ML initialized.
+2025-04-11 13:57:39,774 - INFO - Data loaded successfully for model training.
+2025-04-11 13:57:39,904 - INFO - Succesfully read the YAML file
+2025-04-11 13:57:39,904 - INFO - Loaded configuration from config.yaml
+2025-04-11 13:57:40,438 - INFO - Model created successfully.
+2025-04-11 14:00:41,851 - INFO - Model training completed successfully.
+2025-04-11 14:00:41,854 - WARNING - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-04-11 14:00:42,159 - INFO - Model saved to artifacts/model\model.h5
+2025-04-11 14:00:42,175 - INFO - Extracting weights for user_embedding
+2025-04-11 14:00:42,235 - INFO - Extracting weights for anime_embedding
+2025-04-11 14:00:42,638 - INFO - User and Anime weights saved successfully.
