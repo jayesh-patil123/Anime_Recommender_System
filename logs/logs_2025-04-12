@@ -1,0 +1,143 @@
+2025-04-12 15:52:28,825 - WARNING -  * Debugger is active!
+2025-04-12 15:52:28,852 - INFO -  * Debugger PIN: 246-405-706
+2025-04-12 15:53:21,641 - INFO -  * Detected change in 'c:\\users\\patil\\onedrive\\desktop\\jayesh_works\\anime_recommender_system\\pipeline\\prediction_pipeline.py', reloading
+2025-04-12 15:53:44,791 - WARNING -  * Debugger is active!
+2025-04-12 15:53:44,813 - INFO -  * Debugger PIN: 246-405-706
+2025-04-12 15:57:57,767 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.82.68:5000
+2025-04-12 15:57:57,772 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 15:57:57,783 - INFO -  * Restarting with stat
+2025-04-12 15:58:22,310 - WARNING -  * Debugger is active!
+2025-04-12 15:58:22,388 - INFO -  * Debugger PIN: 246-405-706
+2025-04-12 15:58:24,259 - INFO - 192.168.82.68 - - [12/Apr/2025 15:58:24] "GET / HTTP/1.1" 200 -
+2025-04-12 15:58:25,117 - INFO - 192.168.82.68 - - [12/Apr/2025 15:58:25] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-12 15:58:30,459 - INFO - 192.168.82.68 - - [12/Apr/2025 15:58:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-12 15:58:49,512 - INFO - 192.168.82.68 - - [12/Apr/2025 15:58:49] "POST / HTTP/1.1" 200 -
+2025-04-12 15:58:49,853 - INFO - 192.168.82.68 - - [12/Apr/2025 15:58:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-12 16:03:47,755 - INFO - Running recommendation for user ID: 11880
+2025-04-12 16:03:53,845 - INFO - Similar users:
+   similar_users  similarity
+9          13306    0.296794
+8          13925    0.284657
+7          15684    0.269862
+6           4561    0.262784
+5          10711    0.261084
+2025-04-12 16:03:53,849 - ERROR - Error in hybrid_recommendation: argument of type 'method' is not iterable
+2025-04-12 16:03:54,017 - ERROR - Traceback (most recent call last):
+  File "C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\pipeline\prediction_pipeline.py", line 34, in hybrid_recommendation
+    user_pref = get_user_preferences(user_id, rating_df, anime_df)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\utils\helpers.py", line 152, in get_user_preferences
+    rating_df = pd.read_csv(path_rating_df)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\venv\Lib\site-packages\pandas\io\parsers\readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\venv\Lib\site-packages\pandas\io\common.py", line 719, in get_handle
+    if _is_binary_mode(path_or_buf, mode) and "b" not in mode:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\patil\OneDrive\Desktop\Jayesh_Works\Anime_Recommender_System\venv\Lib\site-packages\pandas\io\common.py", line 1181, in _is_binary_mode
+    return isinstance(handle, _get_binary_io_classes()) or "b" in getattr(
+                                                           ^^^^^^^^^^^^^^^
+TypeError: argument of type 'method' is not iterable
+
+2025-04-12 16:10:16,036 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.82.68:5000
+2025-04-12 16:10:16,036 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 16:10:16,043 - INFO -  * Restarting with stat
+2025-04-12 16:10:34,455 - WARNING -  * Debugger is active!
+2025-04-12 16:10:34,477 - INFO -  * Debugger PIN: 246-405-706
+2025-04-12 16:10:50,736 - INFO - 192.168.82.68 - - [12/Apr/2025 16:10:50] "GET / HTTP/1.1" 200 -
+2025-04-12 16:10:52,066 - INFO - 192.168.82.68 - - [12/Apr/2025 16:10:52] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-12 16:11:02,855 - INFO - 192.168.82.68 - - [12/Apr/2025 16:11:02] "POST / HTTP/1.1" 200 -
+2025-04-12 16:11:03,035 - INFO - 192.168.82.68 - - [12/Apr/2025 16:11:03] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-12 16:11:17,737 - INFO - 192.168.82.68 - - [12/Apr/2025 16:11:17] "POST / HTTP/1.1" 200 -
+2025-04-12 16:11:17,925 - INFO - 192.168.82.68 - - [12/Apr/2025 16:11:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-12 16:11:23,507 - INFO - 192.168.82.68 - - [12/Apr/2025 16:11:23] "POST / HTTP/1.1" 200 -
+2025-04-12 16:11:23,697 - INFO - 192.168.82.68 - - [12/Apr/2025 16:11:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-12 16:11:30,013 - INFO - 192.168.82.68 - - [12/Apr/2025 16:11:30] "POST / HTTP/1.1" 200 -
+2025-04-12 16:11:30,193 - INFO - 192.168.82.68 - - [12/Apr/2025 16:11:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-12 16:13:55,448 - INFO -  * Detected change in 'c:\\users\\patil\\onedrive\\desktop\\jayesh_works\\anime_recommender_system\\pipeline\\prediction_pipeline.py', reloading
+2025-04-12 16:13:55,847 - INFO -  * Restarting with stat
+2025-04-12 16:14:09,287 - WARNING -  * Debugger is active!
+2025-04-12 16:14:09,303 - INFO -  * Debugger PIN: 246-405-706
+2025-04-12 16:17:36,289 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.82.68:5000
+2025-04-12 16:17:36,289 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 16:17:36,298 - INFO -  * Restarting with stat
+2025-04-12 16:17:40,462 - WARNING -  * Debugger is active!
+2025-04-12 16:17:40,476 - INFO -  * Debugger PIN: 246-405-706
+2025-04-12 16:17:57,341 - INFO - 192.168.82.68 - - [12/Apr/2025 16:17:57] "GET / HTTP/1.1" 200 -
+2025-04-12 16:17:58,451 - INFO - 192.168.82.68 - - [12/Apr/2025 16:17:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-12 16:19:30,711 - INFO - 192.168.82.68 - - [12/Apr/2025 16:19:30] "POST / HTTP/1.1" 200 -
+2025-04-12 16:19:30,928 - INFO - 192.168.82.68 - - [12/Apr/2025 16:19:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-12 16:25:07,789 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.82.68:5000
+2025-04-12 16:25:07,789 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 16:25:07,801 - INFO -  * Restarting with stat
+2025-04-12 16:25:14,908 - WARNING -  * Debugger is active!
+2025-04-12 16:25:15,004 - INFO -  * Debugger PIN: 246-405-706
+2025-04-12 16:25:18,746 - INFO - 192.168.82.68 - - [12/Apr/2025 16:25:18] "GET / HTTP/1.1" 200 -
+2025-04-12 16:25:20,747 - INFO - 192.168.82.68 - - [12/Apr/2025 16:25:20] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-12 16:27:06,522 - INFO - 192.168.82.68 - - [12/Apr/2025 16:27:06] "POST / HTTP/1.1" 200 -
+2025-04-12 16:27:06,728 - INFO - 192.168.82.68 - - [12/Apr/2025 16:27:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-12 16:30:43,887 - INFO -  * Detected change in 'C:\\Users\\patil\\OneDrive\\Desktop\\Jayesh_Works\\Anime_Recommender_System\\utils\\helpers.py', reloading
+2025-04-12 16:30:44,059 - INFO -  * Restarting with stat
+2025-04-12 16:30:45,909 - WARNING -  * Debugger is active!
+2025-04-12 16:30:45,914 - INFO -  * Debugger PIN: 246-405-706
+2025-04-12 16:30:47,410 - INFO -  * Detected change in 'c:\\users\\patil\\onedrive\\desktop\\jayesh_works\\anime_recommender_system\\utils\\helpers.py', reloading
+2025-04-12 16:30:47,642 - INFO -  * Restarting with stat
+2025-04-12 16:30:49,614 - WARNING -  * Debugger is active!
+2025-04-12 16:30:49,620 - INFO -  * Debugger PIN: 246-405-706
+2025-04-12 16:35:55,407 - INFO -  * Detected change in 'C:\\Users\\patil\\OneDrive\\Desktop\\Jayesh_Works\\Anime_Recommender_System\\utils\\helpers.py', reloading
+2025-04-12 16:35:55,605 - INFO -  * Restarting with stat
+2025-04-12 16:52:05,426 - INFO - This is an info message.
+2025-04-12 16:52:05,432 - ERROR - This is an error message.
+2025-04-12 16:55:03,634 - INFO - This is an info message.
+2025-04-12 16:55:03,637 - ERROR - This is an error message.
+2025-04-12 16:55:54,091 - INFO - This is an info message.
+2025-04-12 16:55:54,092 - ERROR - This is an error message.
+2025-04-12 16:58:26,143 - INFO - This is an info message.
+2025-04-12 16:58:26,144 - ERROR - This is an error message.
+2025-04-12 16:58:40,927 - INFO - This is an info message.
+2025-04-12 16:58:40,927 - ERROR - This is an error message.
+2025-04-12 17:02:01,251 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.82.68:5000
+2025-04-12 17:02:01,252 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 17:02:01,254 - INFO -  * Restarting with stat
+2025-04-12 17:02:02,699 - WARNING -  * Debugger is active!
+2025-04-12 17:02:02,705 - INFO -  * Debugger PIN: 246-405-706
+2025-04-12 17:02:14,722 - INFO - 192.168.82.68 - - [12/Apr/2025 17:02:14] "GET / HTTP/1.1" 200 -
+2025-04-12 17:02:15,129 - INFO - 192.168.82.68 - - [12/Apr/2025 17:02:15] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-12 17:02:25,248 - INFO - [START] Hybrid recommendation pipeline for user_id: 7643
+2025-04-12 17:02:30,241 - ERROR - Error in get_user_preferences: index -1 is out of bounds for axis 0 with size 0
+2025-04-12 17:02:30,284 - WARNING - [WARNING] No preferences found for user_id: 7643. Falling back to random recommendations.
+2025-04-12 17:02:30,709 - INFO - 192.168.82.68 - - [12/Apr/2025 17:02:30] "POST / HTTP/1.1" 200 -
+2025-04-12 17:02:30,856 - INFO - 192.168.82.68 - - [12/Apr/2025 17:02:30] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-12 17:02:41,212 - INFO - [START] Hybrid recommendation pipeline for user_id: 5689
+2025-04-12 17:02:45,559 - INFO - [INFO] Finding similar users for user_id: 5689
+2025-04-12 17:02:45,638 - INFO - [INFO] Getting user-based recommendations.
+2025-04-12 17:03:33,871 - INFO - [INFO] Getting content-based recommendations from user-based anime list.
+2025-04-12 17:03:53,096 - INFO - [INFO] Combining user-based and content-based recommendations.
+2025-04-12 17:03:53,096 - INFO - [COMPLETE] Top 10 recommendations for user_id 5689: ['Bakuman.', 'Hunter x Hunter', 'Death Note', 'Mob Psycho 100', "KonoSuba:God's Blessing on This Wonderful World!", 'One Punch Man', 'Little Witch Academia', 'Food Wars! Shokugeki no Soma', 'My Hero Academia', 'Parasyte -the maxim-']
+2025-04-12 17:03:53,303 - INFO - 192.168.82.68 - - [12/Apr/2025 17:03:53] "POST / HTTP/1.1" 200 -
+2025-04-12 17:03:53,510 - INFO - 192.168.82.68 - - [12/Apr/2025 17:03:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -

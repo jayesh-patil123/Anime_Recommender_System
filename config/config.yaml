@@ -12,3 +12,4 @@ model:
   metrics:
     - mae
     - mse
+    - accuracy
