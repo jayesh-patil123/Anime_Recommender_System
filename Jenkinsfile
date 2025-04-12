@@ -28,7 +28,7 @@ pipeline {
                     python -m venv ${VENV_DIR}
                     . ${VENV_DIR}/bin/activate
                     pip install --upgrade pip
-                    pip install -e .
+                    pip install -r requirements.txt
                     pip install  dvc
                     '''
                 }
@@ -60,7 +60,7 @@ pipeline {
                         gcloud auth activate-service-account --key-file=${GOOGLE_APPLICATION_CREDENTIALS}
                         gcloud config set project ${GCP_PROJECT}
                         gcloud auth configure-docker --quiet
-                        docker build -t gcr.io/${GCP_PROJECT}/ml-project:latest .
+                        docker build -t gcr.io/${GCP_PROJECT}/ml-project:latest Anime_Recommender_System/
                         docker push gcr.io/${GCP_PROJECT}/ml-project:latest
                         '''
                     }
