@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Comic Sans MS', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url("https://i.pinimg.com/originals/49/bc/56/49bc5675b71e2038b0c28c2ec0ff7d8b.jpg");
+    background-image: url("https://th.bing.com/th/id/OIP.UawcQhF00-mESNLvxntTGwHaD5?w=344&h=181&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,18 +13,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    backdrop-filter: blur(2px);
+    backdrop-filter: blur(5px);  /* Enhanced blur effect */
 }
 
+/* Center the form and content */
 .form-container {
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 30px 40px;
-    border-radius: 20px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 40px 50px;
+    border-radius: 25px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
     text-align: center;
-    max-width: 500px;
+    max-width: 600px;
     width: 90%;
-    border: 3px dashed #f06292;
+    border: 3px dashed #ff4081;
     animation: floaty 3s ease-in-out infinite;
 }
 
@@ -34,47 +35,52 @@ body {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-5px);
+        transform: translateY(-7px);
     }
 }
 
+/* Headings */
 .form-container h1 {
     color: #ff4081;
-    font-size: 26px;
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 2px #fff;
+    font-size: 32px;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 4px #fff;
 }
 
+/* Label styling */
 label {
     display: block;
     font-size: 18px;
     color: #7b1fa2;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
+/* Input styling */
 input[type="number"] {
-    padding: 10px;
+    padding: 12px;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     border: 2px solid #ba68c8;
-    border-radius: 10px;
-    font-size: 16px;
+    border-radius: 15px;
+    font-size: 18px;
     outline: none;
     transition: 0.3s;
 }
 
+/* Focus effect */
 input[type="number"]:focus {
     border-color: #f50057;
-    box-shadow: 0 0 8px #f06292;
+    box-shadow: 0 0 10px #f06292;
 }
 
+/* Button styling */
 button {
     background: linear-gradient(45deg, #f06292, #ba68c8);
     color: white;
     border: none;
-    padding: 12px 25px;
-    border-radius: 12px;
-    font-size: 16px;
+    padding: 14px 30px;
+    border-radius: 15px;
+    font-size: 18px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
     font-weight: bold;
@@ -82,20 +88,24 @@ button {
 
 button:hover {
     background: linear-gradient(45deg, #d81b60, #8e24aa);
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
+/* Results container */
 .results-container {
-    margin-top: 30px;
+    margin-top: 40px;
     text-align: left;
+    font-size: 18px;
 }
 
+/* Results heading */
 .results-container h2 {
-    font-size: 20px;
+    font-size: 24px;
     color: #5e35b1;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
+/* List styling for recommendations */
 .results-container ul {
     list-style: none;
     padding: 0;
@@ -103,11 +113,11 @@ button:hover {
 
 .results-container li {
     background-color: #f3e5f5;
-    margin-bottom: 10px;
-    padding: 10px 15px;
+    margin-bottom: 15px;
+    padding: 12px 20px;
     border-left: 6px solid #ab47bc;
-    border-radius: 8px;
-    font-size: 16px;
+    border-radius: 10px;
+    font-size: 18px;
     position: relative;
     transition: 0.3s;
 }
@@ -116,7 +126,7 @@ button:hover {
     content: "🎬 ";
     position: absolute;
     left: -25px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .results-container li:hover {

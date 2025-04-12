@@ -141,3 +141,24 @@ TypeError: argument of type 'method' is not iterable
 2025-04-12 17:03:53,096 - INFO - [COMPLETE] Top 10 recommendations for user_id 5689: ['Bakuman.', 'Hunter x Hunter', 'Death Note', 'Mob Psycho 100', "KonoSuba:God's Blessing on This Wonderful World!", 'One Punch Man', 'Little Witch Academia', 'Food Wars! Shokugeki no Soma', 'My Hero Academia', 'Parasyte -the maxim-']
 2025-04-12 17:03:53,303 - INFO - 192.168.82.68 - - [12/Apr/2025 17:03:53] "POST / HTTP/1.1" 200 -
 2025-04-12 17:03:53,510 - INFO - 192.168.82.68 - - [12/Apr/2025 17:03:53] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-12 17:12:36,182 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.82.68:5000
+2025-04-12 17:12:36,183 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 17:12:36,188 - INFO -  * Restarting with stat
+2025-04-12 17:12:37,654 - WARNING -  * Debugger is active!
+2025-04-12 17:12:37,660 - INFO -  * Debugger PIN: 246-405-706
+2025-04-12 17:12:50,534 - INFO - 192.168.82.68 - - [12/Apr/2025 17:12:50] "GET / HTTP/1.1" 200 -
+2025-04-12 17:12:50,677 - INFO - 192.168.82.68 - - [12/Apr/2025 17:12:50] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-12 17:12:58,033 - INFO - [START] Hybrid recommendation pipeline for user_id: 8776
+2025-04-12 17:13:03,286 - ERROR - Error in get_user_preferences: index -1 is out of bounds for axis 0 with size 0
+2025-04-12 17:13:03,307 - WARNING - [WARNING] No preferences found for user_id: 8776. Falling back to random recommendations.
+2025-04-12 17:13:03,513 - INFO - 192.168.82.68 - - [12/Apr/2025 17:13:03] "POST / HTTP/1.1" 200 -
+2025-04-12 17:14:02,745 - INFO - 192.168.82.68 - - [12/Apr/2025 17:14:02] "GET / HTTP/1.1" 200 -
+2025-04-12 17:14:02,908 - INFO - 192.168.82.68 - - [12/Apr/2025 17:14:02] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-12 17:14:14,396 - INFO - [START] Hybrid recommendation pipeline for user_id: 11678
+2025-04-12 17:14:18,745 - ERROR - Error in get_user_preferences: index -1 is out of bounds for axis 0 with size 0
+2025-04-12 17:14:18,772 - WARNING - [WARNING] No preferences found for user_id: 11678. Falling back to random recommendations.
+2025-04-12 17:14:19,104 - INFO - 192.168.82.68 - - [12/Apr/2025 17:14:19] "POST / HTTP/1.1" 200 -
+2025-04-12 17:14:19,278 - INFO - 192.168.82.68 - - [12/Apr/2025 17:14:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
