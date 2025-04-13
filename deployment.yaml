@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: ml-app
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: ml-app
@@ -16,7 +16,7 @@ spec:
       - name: ml-app-container
         image: gcr.io/mlops-new-447207/ml-project:latest
         ports:
-        - containerPort: 5000  # Replace with the port your app listens on
+        - containerPort: 5000 
 ---
 apiVersion: v1
 kind: Service

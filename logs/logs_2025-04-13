@@ -1,0 +1,70 @@
+2025-04-13 11:51:55,512 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.82.68:5000
+2025-04-13 11:51:55,512 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 11:51:55,524 - INFO -  * Restarting with stat
+2025-04-13 11:51:58,713 - WARNING -  * Debugger is active!
+2025-04-13 11:51:58,742 - INFO -  * Debugger PIN: 246-405-706
+2025-04-13 11:52:05,006 - INFO - 192.168.82.68 - - [13/Apr/2025 11:52:05] "GET / HTTP/1.1" 200 -
+2025-04-13 11:52:05,697 - INFO - 192.168.82.68 - - [13/Apr/2025 11:52:05] "GET /static/style.css HTTP/1.1" 200 -
+2025-04-13 11:52:07,807 - INFO - 192.168.82.68 - - [13/Apr/2025 11:52:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 11:52:16,177 - INFO - [START] Hybrid recommendation pipeline for user_id: 12121
+2025-04-13 11:52:26,867 - INFO - [INFO] Finding similar users for user_id: 12121
+2025-04-13 11:52:27,244 - INFO - [INFO] Getting user-based recommendations.
+2025-04-13 11:53:52,370 - INFO - [INFO] Getting content-based recommendations from user-based anime list.
+2025-04-13 11:54:10,223 - INFO - [INFO] Combining user-based and content-based recommendations.
+2025-04-13 11:54:10,223 - INFO - [COMPLETE] Top 10 recommendations for user_id 12121: ['Durarara!!', 'Bakuman.', 'Hunter x Hunter', 'Attack on Titan', 'Darker than Black', 'Toradora!', 'Summer Wars', 'Kimi ni Todoke:From Me to You', 'Ouran High School Host Club', 'Nisekoi:False Love']
+2025-04-13 11:54:10,506 - INFO - 192.168.82.68 - - [13/Apr/2025 11:54:10] "POST / HTTP/1.1" 200 -
+2025-04-13 11:54:10,617 - INFO - 192.168.82.68 - - [13/Apr/2025 11:54:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-13 11:57:03,565 - INFO - [START] Hybrid recommendation pipeline for user_id: 11880
+2025-04-13 11:57:23,064 - INFO - [INFO] Finding similar users for user_id: 11880
+2025-04-13 11:57:23,282 - INFO - [INFO] Getting user-based recommendations.
+2025-04-13 11:59:21,859 - INFO - 192.168.82.68 - - [13/Apr/2025 11:59:21] "GET / HTTP/1.1" 200 -
+2025-04-13 11:59:21,972 - INFO - 192.168.82.68 - - [13/Apr/2025 11:59:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-04-13 11:59:33,343 - INFO - [INFO] Getting content-based recommendations from user-based anime list.
+2025-04-13 12:00:21,221 - INFO - [START] Hybrid recommendation pipeline for user_id: 11880
+2025-04-13 12:00:35,020 - INFO - [INFO] Combining user-based and content-based recommendations.
+2025-04-13 12:00:35,021 - INFO - [COMPLETE] Top 10 recommendations for user_id 11880: ['Steins;Gate', 'Time of Eve', 'Little Witch Academia', 'Angel Beats!', 'Clannad ~After Story~', 'Clannad', 'Steins;Gate:Egoistic Poriomania', 'anohana:The Flower We Saw That Day', 'Toradora!', 'Your Name.']
+2025-04-13 12:00:35,779 - INFO - 192.168.82.68 - - [13/Apr/2025 12:00:35] "POST / HTTP/1.1" 200 -
+2025-04-13 12:00:39,760 - INFO - [INFO] Finding similar users for user_id: 11880
+2025-04-13 12:00:39,908 - INFO - [INFO] Getting user-based recommendations.
+2025-04-13 12:01:58,797 - INFO - [START] Hybrid recommendation pipeline for user_id: 11880
+2025-04-13 12:01:59,301 - INFO - [START] Hybrid recommendation pipeline for user_id: 11880
+2025-04-13 12:01:59,960 - INFO - [START] Hybrid recommendation pipeline for user_id: 11880
+2025-04-13 12:02:00,002 - INFO - [START] Hybrid recommendation pipeline for user_id: 11880
+2025-04-13 12:02:00,507 - INFO - [START] Hybrid recommendation pipeline for user_id: 11880
+2025-04-13 12:02:22,200 - INFO - [INFO] Finding similar users for user_id: 11880
+2025-04-13 12:02:22,245 - INFO - [INFO] Finding similar users for user_id: 11880
+2025-04-13 12:02:22,564 - INFO - [INFO] Getting user-based recommendations.
+2025-04-13 12:02:22,575 - INFO - [INFO] Getting user-based recommendations.
+2025-04-13 12:02:22,813 - INFO - [INFO] Finding similar users for user_id: 11880
+2025-04-13 12:02:23,239 - INFO - [INFO] Getting user-based recommendations.
+2025-04-13 12:02:23,552 - INFO - [INFO] Finding similar users for user_id: 11880
+2025-04-13 12:02:23,614 - INFO - [INFO] Finding similar users for user_id: 11880
+2025-04-13 12:02:23,731 - INFO - [INFO] Getting user-based recommendations.
+2025-04-13 12:02:23,977 - INFO - [INFO] Getting user-based recommendations.
+2025-04-13 12:03:04,506 - INFO - [INFO] Getting content-based recommendations from user-based anime list.
+2025-04-13 12:03:34,740 - INFO - [INFO] Combining user-based and content-based recommendations.
+2025-04-13 12:03:34,756 - INFO - [COMPLETE] Top 10 recommendations for user_id 11880: ['Steins;Gate', 'Time of Eve', 'Little Witch Academia', 'Angel Beats!', 'Clannad ~After Story~', 'Clannad', 'Steins;Gate:Egoistic Poriomania', 'anohana:The Flower We Saw That Day', 'Toradora!', 'Your Name.']
+2025-04-13 12:03:35,364 - INFO - 192.168.82.68 - - [13/Apr/2025 12:03:35] "POST / HTTP/1.1" 200 -
+2025-04-13 12:04:13,065 - INFO - [INFO] Getting content-based recommendations from user-based anime list.
+2025-04-13 12:04:13,385 - INFO - [INFO] Getting content-based recommendations from user-based anime list.
+2025-04-13 12:04:13,766 - INFO - [INFO] Getting content-based recommendations from user-based anime list.
+2025-04-13 12:04:14,021 - INFO - [INFO] Getting content-based recommendations from user-based anime list.
+2025-04-13 12:04:15,712 - INFO - [INFO] Getting content-based recommendations from user-based anime list.
+2025-04-13 12:04:51,038 - INFO - [INFO] Combining user-based and content-based recommendations.
+2025-04-13 12:04:51,042 - INFO - [COMPLETE] Top 10 recommendations for user_id 11880: ['Steins;Gate', 'Time of Eve', 'Little Witch Academia', 'Angel Beats!', 'Clannad ~After Story~', 'Clannad', 'Steins;Gate:Egoistic Poriomania', 'anohana:The Flower We Saw That Day', 'Toradora!', 'Your Name.']
+2025-04-13 12:04:51,298 - INFO - 192.168.82.68 - - [13/Apr/2025 12:04:51] "POST / HTTP/1.1" 200 -
+2025-04-13 12:04:51,698 - INFO - [INFO] Combining user-based and content-based recommendations.
+2025-04-13 12:04:51,712 - INFO - [COMPLETE] Top 10 recommendations for user_id 11880: ['Steins;Gate', 'Time of Eve', 'Little Witch Academia', 'Angel Beats!', 'Clannad ~After Story~', 'Clannad', 'Steins;Gate:Egoistic Poriomania', 'anohana:The Flower We Saw That Day', 'Toradora!', 'Your Name.']
+2025-04-13 12:04:51,955 - INFO - 192.168.82.68 - - [13/Apr/2025 12:04:51] "POST / HTTP/1.1" 200 -
+2025-04-13 12:04:52,022 - INFO - [INFO] Combining user-based and content-based recommendations.
+2025-04-13 12:04:52,022 - INFO - [COMPLETE] Top 10 recommendations for user_id 11880: ['Steins;Gate', 'Time of Eve', 'Little Witch Academia', 'Angel Beats!', 'Clannad ~After Story~', 'Clannad', 'Steins;Gate:Egoistic Poriomania', 'anohana:The Flower We Saw That Day', 'Toradora!', 'Your Name.']
+2025-04-13 12:04:52,146 - INFO - [INFO] Combining user-based and content-based recommendations.
+2025-04-13 12:04:52,147 - INFO - [COMPLETE] Top 10 recommendations for user_id 11880: ['Steins;Gate', 'Time of Eve', 'Little Witch Academia', 'Angel Beats!', 'Clannad ~After Story~', 'Clannad', 'Steins;Gate:Egoistic Poriomania', 'anohana:The Flower We Saw That Day', 'Toradora!', 'Your Name.']
+2025-04-13 12:04:52,231 - INFO - 192.168.82.68 - - [13/Apr/2025 12:04:52] "POST / HTTP/1.1" 200 -
+2025-04-13 12:04:52,370 - INFO - 192.168.82.68 - - [13/Apr/2025 12:04:52] "POST / HTTP/1.1" 200 -
+2025-04-13 12:04:52,569 - INFO - [INFO] Combining user-based and content-based recommendations.
+2025-04-13 12:04:52,570 - INFO - [COMPLETE] Top 10 recommendations for user_id 11880: ['Steins;Gate', 'Time of Eve', 'Little Witch Academia', 'Angel Beats!', 'Clannad ~After Story~', 'Clannad', 'Steins;Gate:Egoistic Poriomania', 'anohana:The Flower We Saw That Day', 'Toradora!', 'Your Name.']
+2025-04-13 12:04:52,673 - INFO - 192.168.82.68 - - [13/Apr/2025 12:04:52] "POST / HTTP/1.1" 200 -
