@@ -47,59 +47,16 @@ We used:
 | 🔧 VS Code | Dev environment |
 
 ---
+<details>
+<summary><strong>📁 Project Structure</strong> (click to expand)</summary>
+Anime-Recommender/ │ ├── 📄 application.py # Main Flask application ├── 📄 Dockerfile # Docker config for the app ├── 📄 Jenkinsfile # Jenkins pipeline definition ├── 📄 deployment.yaml # Kubernetes deployment file ├── 📄 requirements.txt # Project dependencies ├── 📄 setup.py # Setup for pip install ├── 📄 tester.py # Testing file ├── 📄 .gitignore ├── 📄 .dvcignore │ ├── 📁 dvc/ # DVC cache & tmp │ ├── 📁 cache/ │ ├── 📁 tmp/ │ ├── 📄 .gitignore │ └── 📁 config/ │ ├── 📁 artifacts/ # Stored ML artifacts │ ├── 📁 model/ │ ├── 📁 model_checkpoint/ │ ├── 📁 processed/ │ │ ├── anime_df.csv │ │ ├── rating_df.csv │ │ ├── synopsis_df.csv │ │ ├── anime2anime_encoded.pkl │ │ ├── anime2anime_decoded.pkl │ │ ├── user2user_encoded.pkl │ │ ├── user2user_decoded.pkl │ │ ├── X_train_array.pkl │ │ ├── X_test_array.pkl │ │ ├── y_train.pkl │ │ └── y_test.pkl │ ├── 📁 raw/ │ │ ├── anime.csv │ │ ├── animelist.csv │ │ └── anime_with_synopsis.csv │ └── 📁 weights/ │ ├── 📄 model_checkpoint.dvc ├── 📄 model.dvc ├── 📄 processed.dvc ├── 📄 raw.dvc ├── 📄 weights.dvc │ ├── 📁 config/ # Configuration management │ ├── pycache/ │ ├── init.py │ ├── config.yaml │ └── paths_config.py │ ├── 📁 custom-jenkins/ # Custom Jenkins with Docker │ └── 🐳 Dockerfile │ ├── 📁 logs/ # Log files │ ├── 📁 ml_project_02.egg-info/ # Package info (auto-generated) │ ├── 📁 notebook/ # Jupyter notebook for EDA │ ├── anime.ipynb │ └── weights.weights.h5 │ ├── 📁 pipeline/ # Pipelines for ML │ ├── pycache/ │ ├── init.py │ ├── prediction_pipeline.py │ └── training_pipeline.py │ ├── 📁 src/ # Source code │ ├── pycache/ │ ├── init.py │ ├── base_model.py │ ├── custom_exception.py │ ├── data_ingestion.py │ ├── data_processing.py │ ├── logger.py │ └── model_training.py │ ├── 📁 static/ # Static files (CSS) │ └── style.css │ ├── 📁 template/ # HTML templates │ └── index.html │ ├── 📁 utils/ # Helper utilities │ ├── pycache/ │ ├── init.py │ ├── common_functions.py │ └── helpers.py │ └── 📁 venv/ # Virtual environment
 
-## 📁 Project Structure
-Anime-Recommender/ │
-├── 📄 application.py # Flask app entry point 
-├── 🐳 Dockerfile # Docker config for app 
-├── 📜 Jenkinsfile # CI/CD pipeline definition 
-├── 📦 deployment.yaml # Kubernetes deployment config 
-├── 📄 requirements.txt # Python dependencies 
-├── ⚙️ setup.py # Package setup 
-├── 🧪 tester.py # Testing script │ 
-├── 📁 custom_jenkins/ # Jenkins DinD setup │ 
-└── 🐳 Dockerfile │ 
-├── 📁 artifacts/ # Versioned ML assets │ 
-├── 📁 model/ │ 
-├── 📁 model_checkpoint/ │ 
-├── 📁 processed/ │ │ 
-├── anime_df.csv │ │ 
-├── rating_df.csv │ │ 
-├── synopsis_df.csv │ 
-│ └── *_encoded.pkl │ 
-└── 📁 raw/ │ 
-├── anime.csv │ 
-├── animelist.csv │ 
-└── anime_with_synopsis.csv │ 
-├── ⚙️ config/ │ 
-├── config.yaml # YAML config │ 
-├── paths_config.py # Path manager │ 
-├── 📓 notebook/ │ 
-└── anime.ipynb # EDA & model exploration │ 
-├── 🔁 pipeline/ │ 
-├── training_pipeline.py # Train pipeline │ 
-└── prediction_pipeline.py # Prediction logic │ 
-├── 🧠 src/ │ 
-├── base_model.py │ 
-├── data_ingestion.py │ 
-├── data_processing.py │ 
-├── model_training.py │ 
-└── logger.py │ 
-├── 🌐 template/ │ 
-└── index.html # Flask frontend │ 
-├── 🎨 static/ │ 
-└── style.css # CSS styling │ 
-├── 🛠️ utils/ │ └
-── helpers.py # Utility functions │ 
-├── 📂 venv/ # Virtual environment │ 
-├── 📄 .gitignore 
-├── 📄 .dvcignore 
-├── 📄 model.dvc
-├── 📄 processed.dvc 
-├── 📄 raw.dvc 
-├── 📄 weights.dvc 
-└── 📁 weights/ 
-└── weights.weights.h5
+bash
+Copy
+Edit
+
+
+</details>
 
 
 ---
