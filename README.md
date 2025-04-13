@@ -48,9 +48,7 @@ We used:
 
 ---
 
-## 🧾 Project Structure
-
-Anime-Recommender/ │ ├── application.py ├── Dockerfile ├── Jenkinsfile ├── deployment.yaml ├── setup.py ├── requirements.txt ├── tester.py │ ├── custom_jenkins/ │ └── Dockerfile │ ├── artifacts/ │ ├── model/ │ ├── model_checkpoint/ │ ├── processed/ │ └── raw/ │ ├── config/ │ ├── config.yaml │ ├── paths_config.py │ ├── notebook/ │ └── anime.ipynb │ ├── pipeline/ │ ├── training_pipeline.py │ └── prediction_pipeline.py │ ├── src/ │ ├── base_model.py │ ├── data_ingestion.py │ ├── data_processing.py │ ├── model_training.py │ ├── template/ │ └── index.html │ ├── static/ │ └── style.css │ └── utils/ └── helpers.py
+## 📁 Project Structure
 
 
 ---
